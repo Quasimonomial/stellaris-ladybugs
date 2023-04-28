@@ -1,0 +1,58 @@
+# Space Ladybugs
+ladybugs_asteroid_category = {
+	desc = "ladybug_asteroid_category_desc"
+	# {
+	# 	# trigger = { ... }
+	# }
+
+	# picture = GFX_evt_crashed_station
+
+	# We will want our own picture
+	# picture =
+
+
+	level = 1
+
+	# Going to have to make this huge so we can
+	spawn_chance = {				# Chance for this anomaly category to spawn,
+		base = 100000				# relative to other valid categories. Default: base = 0
+		modifier = {
+			is_asteroid = yes
+		}
+	}
+
+	on_success = ladybugs.1
+	# on_success = {
+	# 	1 = {
+	# 		anomaly_event = ladybugs.1
+	# 	}
+	# 	# 1 =
+	# }
+}
+
+
+
+#an_anomaly_category = {				# Anomaly category ID key
+#	desc = {						# Can also use triggered descs. First valid entry will be used.
+#		trigger = { ... }			# Scope: planet, from = ship
+#		text = "key"				# Localization key for description
+#	}
+
+
+#	on_success = {					# Picks anomaly event to fire; similar to random_list
+#		1 = {						# Base chance
+#			max_once = yes			# Individual outcomes default to max_once = yes,
+#			max_once_global = no	 # and max_once_global = no
+#			modifier = {			# Optional modifiers
+#				add/factor = <num>
+#				<triggers>			# Scope: ship, from: planet
+#			}
+#			anomaly_event = <id>	# New effect anomaly_event fires specified event ID. Scope: ship, from: planet
+#		}							# Can also use ship_event, though it gets different scopes:
+#									# ship, from: ship, fromfrom: planet
+#
+#		1 = <event id>				# shorthand for 1 = { anomaly_event = <event id> }
+#	}
+#
+				# Shorthand for on_success = { 1 = { anomaly_event = <event id> } }
+#}									# Only use if there is only one outcome in the category
