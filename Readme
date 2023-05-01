@@ -19,6 +19,7 @@
   * Allow for conditional reward (machine empires vs every else)
   * Comments for everything
   * Remove Debugging anomaly Stuff
+  * Clean up Code Generally after debugging
 * Bugs (hehe)
   * Looks like the Zro icon does not show up on the acceptance option
   * Looks like we also do not get Zro lmao
