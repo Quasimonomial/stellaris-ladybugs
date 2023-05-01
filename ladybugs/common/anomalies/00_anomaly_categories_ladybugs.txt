@@ -2,19 +2,18 @@
 ladybugs_asteroid_category = {
 	desc = "ladybug_asteroid_category_desc.default"
 
-	level = 4
-	# level = 1 # Debugging Value
+	# level = 4
+	level = 1 # Debugging Value
 
 
 	# Going to have to make this huge so we can
 	spawn_chance = {
-		# Default: base = 0
-		# base = 100000000
-		modifier = {
-			# add = 2
-			add = 100000 # Debugging Value
-			is_asteroid = yes
-		}
+		base = 100000000 # debugging value
+		# modifier = {
+		# 	# add = 2
+		# 	# add = 100000 # Debugging Value
+		# 	is_asteroid = yes
+		# }
 	}
 
 	on_success = {
@@ -28,7 +27,7 @@ ladybugs_asteroid_category = {
 					}
 				}
 			}
-			anomaly_event = ladybugs.2
+			anomaly_event = ladybugs.5
 		}
 		0 = {
 			modifier = {
@@ -40,7 +39,7 @@ ladybugs_asteroid_category = {
 					}
 				}
 			}
-			anomaly_event = ladybugs.1
+			anomaly_event = ladybugs.0
 		}
 	}
 }

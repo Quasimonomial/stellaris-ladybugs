@@ -1,10 +1,8 @@
 namespace = ladybugs
 
-
-# We should be able to use inherentence in the events to save on certain things
-
+# default - 0
 ship_event = {
-	id = ladybugs.1
+	id = ladybugs.def
 	title = "ladybugs.name"
 	desc = "ladybugs.default.desc"
 	# picture = GFX_evt_mining_station
@@ -22,16 +20,33 @@ ship_event = {
 		FROM = {
 			set_deposit = d_zro_deposit_1
 		}
-		# FROM = {
-		# 	hidden_effect = {
-		# 		add_zro = yes
-		# 	}
-		# }
 	}
 }
 
+#  Spiritualist - 4
 ship_event = {
-	id = ladybugs.2
+	id = ladybugs.mat
+	title = "ladybugs.name"
+	desc = "ladybugs.spiritualist.desc"
+	location = FROM
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { clear_deposits = yes }
+	}
+
+	option = {
+		name = ladybugs.spiritualist.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+}
+
+# Materialist - 5
+ship_event = {
+	id = ladybugs.mat
 	title = "ladybugs.name"
 	desc = "ladybugs.materialist.desc"
 	location = FROM
@@ -44,6 +59,48 @@ ship_event = {
 
 	option = {
 		name = ladybugs.materialist.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+}
+
+# Xenophile - 6
+ship_event = {
+	id = ladybugs.mat
+	title = "ladybugs.name"
+	desc = "ladybugs.xenophile.desc"
+	location = FROM
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { clear_deposits = yes }
+	}
+
+	option = {
+		name = ladybugs.xenophile.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+}
+
+# Xenophobe - 7
+ship_event = {
+	id = ladybugs.mat
+	title = "ladybugs.name"
+	desc = "ladybugs.xenophobe.desc"
+	location = FROM
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { clear_deposits = yes }
+	}
+
+	option = {
+		name = ladybugs.xenophobe.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
 		}

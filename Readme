@@ -1,5 +1,16 @@
 # Lady Bugs!
 
+## Ladybugs Event Id Key
+Turns out that we have to key the IDs off of integers or we get an error, so here we go
+0: Default
+1: Psionic
+2: Machine Empire
+3: Hive
+4: Spiritualist
+5: Materialist
+6: Xenophile
+7: Xenophobe
+
 ## ToDos
 * Graphics
   * For Discovering the Asteroid
