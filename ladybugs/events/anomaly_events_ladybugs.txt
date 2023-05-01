@@ -1,10 +1,12 @@
 namespace = ladybugs
 
 
+# We should be able to use inherentence in the events to save on certain things
+
 ship_event = {
 	id = ladybugs.1
-	title = "ladybugs.1.name"
-	desc = "ladybugs.1.desc"
+	title = "ladybugs.name"
+	desc = "ladybugs.default.desc"
 	# picture = GFX_evt_mining_station
 	# show_sound = event_ship_bridge
 	location = FROM
@@ -16,7 +18,7 @@ ship_event = {
 	}
 
 	option = {
-		name = ladybugs.1.option
+		name = ladybugs.default.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
 		}
@@ -25,5 +27,25 @@ ship_event = {
 		# 		add_zro = yes
 		# 	}
 		# }
+	}
+}
+
+ship_event = {
+	id = ladybugs.2
+	title = "ladybugs.name"
+	desc = "ladybugs.materialist.desc"
+	location = FROM
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { clear_deposits = yes }
+	}
+
+	option = {
+		name = ladybugs.materialist.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
 	}
 }
