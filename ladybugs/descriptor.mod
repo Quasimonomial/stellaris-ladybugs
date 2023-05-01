@@ -3,4 +3,4 @@ tags={
 	"Events"
 }
 name="Ladybugs"
-supported_version="3.7.4"
+supported_version="3.7.*"
