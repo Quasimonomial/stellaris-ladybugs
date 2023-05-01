@@ -31,11 +31,19 @@ Turns out that we have to key the IDs off of integers or we get an error, so her
   * Comments for everything
   * Remove Debugging anomaly Stuff
   * Clean up Code Generally after debugging
-* Bugs (hehe)
-  * Looks like the Zro icon does not show up on the acceptance option
-  * Looks like we also do not get Zro lmao
+
+## Testing
+* Need to have the mod set up properly, only known way to do this is to create a mod and then replace the contents of the mod file with this code
+* Make sure that the debug versions of the variables are not commented out
+* Set your ship to automatically explore until the event is triggered; it should be on the first or second planet
+
 
 ## Explanation
 
-https://forum.paradoxplaza.com/forum/developer-diary/stellaris-dev-diary-31-modding-scripting-anomalies.923348/
+* Okay, having done some research on this, there isn't a way to do inheritance with the events
+
+
+## Resources
+
+* https://forum.paradoxplaza.com/forum/developer-diary/stellaris-dev-diary-31-modding-scripting-anomalies.923348/
 https://stellaris.paradoxwikis.com/Anomalies_modding
