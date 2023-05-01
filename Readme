@@ -1,0 +1,28 @@
+# Lady Bugs!
+
+## ToDos
+* Graphics
+  * For Discovering the Asteroid
+  * For Finishing the Event
+* Writing
+  * Machine Empires
+  * Hive Minds
+  * Psionic Empires
+* Conditionals
+  * Doing these
+* Deposits
+  * Food + Minerals for Machine Empires
+* Coding
+  * Get all the text into the yaml files
+  * Allow for Conditional Setting of text
+  * Allow for conditional reward (machine empires vs every else)
+  * Comments for everything
+  * Remove Debugging anomaly Stuff
+* Bugs (hehe)
+  * Looks like the Zro icon does not show up on the acceptance option
+  * Looks like we also do not get Zro lmao
+
+## Explanation
+
+https://forum.paradoxplaza.com/forum/developer-diary/stellaris-dev-diary-31-modding-scripting-anomalies.923348/
+https://stellaris.paradoxwikis.com/Anomalies_modding
