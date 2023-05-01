@@ -1,0 +1,87 @@
+namespace = ladybugs
+
+
+ship_event = {
+	id = ladybugs.1
+	title = "ladybugs.1.name"
+	desc = {
+		trigger = {
+			has_ethic = ethic_spiritualist
+		}
+		text = "ladybugs.1.ladybugs.1.desc.spiritualist"
+	}
+	desc="ladybugs.1.desc"
+	
+	# picture = GFX_evt_mining_station
+	# show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { clear_deposits = yes }
+	}
+
+	option = {
+		name = ladybugs.1.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+spawn_chance = {
+	1
+}
+}
+
+# ship_event = {
+# 	id = anomaly.1
+# 	title = "anomaly.1.name"
+# 	desc = "anomaly.1.desc"
+# 	picture = GFX_evt_mining_station
+# 	show_sound = event_ship_bridge
+# 	location = FROM
+
+# 	is_triggered_only = yes
+
+# 	immediate = {
+# 		from = { clear_deposits = yes }
+# 	}
+
+# 	option = {
+# 		name = REMARKABLE
+# 		hidden_effect = {
+# 			FROM = {
+# 				add_modifier = {
+# 					modifier = "asteroid_coprolite"
+# 					days = -1
+# 				}
+# 			}
+# 		}
+# 		FROM = {
+# 			set_deposit = d_society_3
+# 		}
+# 	}
+# }
+
+
+
+# ship_event = {
+# 	id = ladybugs.1
+# 	title = ancient_flag.1.name
+# 	desc = ancient_flag.1.desc
+# 	picture = GFX_evt_ship_in_orbit
+# 	show_sound = event_ship_bridge
+# 	location = FROM
+
+
+# 	option = {
+# 		name = FASCINATING
+
+# 	}
+# }
+
+
+# ancient_flag_category: "The Forgotten Flag"
+# ancient_flag_category_desc: "The crew has found a strange metallic cylinder with stained cloth attached to it, presumably some sort of flag on §Y[From.GetName]§!."
+# ancient_flag.1.name: "Ancient Civilization Flag"
+# ancient_flag.1.desc: "Science Officer §G[Root.GetLeaderName]§! commander of the §B[Root.GetFleetName]§! has completed its detailed scan of §Y[From.GetName]§!. The object appears to be placed by an ancient civilization, roughly 3000 years ago. In their culture, placing flags on celestial objects was a way to claim areas in space. \n\nSince there is little to no wind on §Y[From.GetName]§!, the flag has not eroded over the past 3000 years. What happened to the ancient civilization is still a mystery. "

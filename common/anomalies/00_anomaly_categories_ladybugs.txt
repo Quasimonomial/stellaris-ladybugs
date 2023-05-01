@@ -1,0 +1,22 @@
+# Space Ladybugs
+ladybugs_asteroid_category = {
+	desc = "ladybug_asteroid_category_desc"
+	# {
+	# 	# trigger = { ... }
+	# }
+
+	# picture = GFX_evt_crashed_station
+
+
+	level = 1
+
+	# Going to have to make this huge so we can
+	spawn_chance = {				# Chance for this anomaly category to spawn,
+		base = 100000				# relative to other valid categories. Default: base = 0
+		modifier = {
+			is_asteroid = yes
+		}
+	}
+
+	on_success = ladybugs.1
+}
