@@ -9,9 +9,33 @@ ladybug_asteroid_category_desc.default: "We have detected small fluttering life 
 ladybugs.default.desc: "Upon landing on the asteroid, it is clear that it is crawling in what the crew can only describe as Ladybugs. Their habitat extends across much of the asteroid. They are responsive to our scientists, moving away when we approach. But they also move according to other patterns.\n\nThey are capable of flight, like their namesake, but they are unlike the creatures we know. It is becoming clear that they are interacting with beings or substances that we cannot perceive.\n\nWe have seen these creatures falter in mid-flight. Their blood is purple as their shells, and they fall to the rock wounded. Further inspection of these specimens show us that they have suffered biting lacerations, although we did not witness any other life form.\n\nThese Ladybugs are fighting battles of their own  and though we did not at first determine their food source, we believe that they are consuming some invisible beasts which sometimes fights back.\n\nBut they are gentle to us. And they leave behind a potent hallucinogen. Our equipment, and the creatures themselves are displaying measurable levels of Zro."
 ladybugs.default.option: "We should set up a station to collect the particles from the ladybugs."
 
+# Xenophile Text
+
+ladybug_asteroid_category_desc.xenophile: "We have found tiny fluttering ladybugs on the surface of this asteroid. We should see what we can learn from these little creatures."
+ladybugs.xenophile.desc: "After a long journey in space, we have found something charming. Rather than bare, lifeless rock, this asteroid is host to a colony of small and peaceful bugs.\n\nWe watched with delight as these insects rose from the ground and settled on our scientists and our ship immediately after we set foot on the surface of the asteroid.\n\nThese are lively creatures, persevering cheerfully in this inhospitable location. We believe they cannot be native to this environment, as they do not seem to be adapted originally for the demands of deep space.\n\nThey have a food source here, and we can note that they are eating beings invisible to the human eye, but it is a precarious existence. We have encountered injured Ladybugs although there is no visible predator here, and we know they are not aggressive with each other.\n\nWe find these amazing beings are producing remarkable quantities of Zro which coats their bodies. We theorize that this substance could be healing them from the injuries they receive from their invisible adversaries. After handling them, our scientists find it in their pockets and the folds of their clothes.\n\nOur scientists are attempting to bring some of these Ladybugs aboard with us, so we can take them home."
+ladybugs.xenophile.option: "Awww, they’re cute!"
+
+# Xenophobe Text
+
+ladybug_asteroid_category_desc.xenophobe: "A writhing movement has been detected on this asteroid.  Ultrasonic clicking sounds are being picked up on our scanners; could be dangerous."
+ladybugs.xenophobe.desc: "Our away team immediately encountered a distressing swarm of insects, but thankfully they seem to ignore or avoid our scientists.  Despite the reservations of the crew, the observation station has been set up, and our drones have patrolled the interior of the asteroid.\n\nThe insects appear to be large, aggressive scarab-like beetles with carnivorous mandibles.\n\nBy observing video of the alien bugs viciously attacking what appears to be empty vacuum, we theorize that they could be hunting some other life form; something invisible, perhaps worse.\n\nEach bug has in its possession a small quantity of Zro; a fringe theory on the team suggests that the beasts have stolen it from their environment to aid in hunting, perhaps tracking physionic emissions from their prey.\n\nWe could set up a mining station here, using centrifuges to extract Zro from a paste made from the aliens."
+ladybugs.xenophobe.option: "Distressing, but useful."
+
+# Spiritualist Text
+
+ladybug_asteroid_category_desc.spiritualist: "We have detected a group of creatures moving and flowing in harmony, but a junior scientist insists that he feels a sense of unease."
+ladybugs.spiritualist.desc: "We set down on a high rock and when we looked out of the portholes, we saw a field of small bright creatures. Their brilliant shells made them look just like Ladybugs.  The scientists watched in an awed silence as they fluttered past us with the buzz of a thousand jeweled wings.\n\nThey move in harmony, shifting with currents known only to them. They inhabit this world lightly. Their lives are lived partly in a realm beyond us. A junior researcher swears that he even saw one vanish into thin space, then reappear seconds later, a centipede shape in its mouth.  There were no other reports of this sighting, and a sample of the second species has not been recovered.\n\nThere is something else here; there is a malevolence in our dreams, thousands of relentless legs. When we wake, the Ladybugs are with us again, and we can find peace.\n\nWe rise early and watch them. Sometimes, they land on our hands so gently we almost cannot perceive them. After they flit away, we find golden dust resting in our palms, which we identified as Zro. The creatures are coated in it, carrying it on their own wings and legs."
+ladybugs.spiritualist.option: "It is transcendent!"
+
 # Materialist Text
 
 ladybug_asteroid_category_desc.materialist: "There appear to be insect life forms on this planet.  While they exhibit predation behaviors, we can detect no viable food source."
 ladybugs.materialist.desc: "Our scientists report that the asteroid is covered in inch long, round beetles with bright purple shells and tiny black spots.  The insects exhibit social behavior but do not appear to be eusocial.\n\nThe insects exhibit predatory instinct, leaping and chewing with their jaws, but no prey can be observed; they do this most when at the mouth of various lattice like micro tunnels throughout the interior of the rock.\n\nOf interest to us is that their legs and shells appear to be coated in fine Zro dust; we removed the dust from several specimens and kept them in a containment chamber, but within hours the dust density had returned to ambient levels.\n\nThe continuous origin of the dust on these insects is unknown, but setting up an observation post would allow us to find more dust, and possibly answers."
 ladybugs.materialist.option: "Acknowledged."
+
+# Hive Mind Text
+
+# Machine Empire Text
+
+# Psychic Empire Text
 
