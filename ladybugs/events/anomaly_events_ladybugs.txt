@@ -1,17 +1,15 @@
 namespace = ladybugs
 
 # default - 0
+
 ship_event = {
 	id = ladybugs.def
 	title = "ladybugs.name"
 	
 	desc = {
 		trigger = {
-			owner = {
-						
-						is_spiritualist = yes
-				}
-			}
+		hasSpiritualistEthic = yes
+	}
 		text = "ladybugs.spiritualist.desc"
 	}
 	desc = "ladybugs.default.desc"

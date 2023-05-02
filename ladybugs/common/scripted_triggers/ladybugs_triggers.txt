@@ -1,0 +1,6 @@
+hasSpiritualistEthic = {
+    owner = {
+						
+						is_spiritualist = yes
+				}
+			}
