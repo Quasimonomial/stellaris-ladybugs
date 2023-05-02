@@ -1,8 +1,11 @@
-hasSpiritualistEthic = {
-  ownerHasEthicAttribute = {ETHIC_CONDITION = is_spiritualist}}
+hasSpiritualistEthic = {ownerHasEthicAttribute = {ETHIC_CONDITION = is_spiritualist}}
+hasXenophileEthic = {ownerHasEthicAttribute = {ETHIC_CONDITION = is_xenophile}}
+hasXenophobeEthic = {ownerHasEthicAttribute = {ETHIC_CONDITION = is_xenophobe}}
+hasMaterialistEthic = {ownerHasEthicAttribute = {ETHIC_CONDITION = is_materialist}}
 
 ownerHasEthicAttribute = {
     owner = {		
 						$ETHIC_CONDITION$ = yes
 			}
 }
+

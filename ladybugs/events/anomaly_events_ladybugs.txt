@@ -6,11 +6,12 @@ ship_event = {
 	id = ladybugs.def
 	title = "ladybugs.name"
 	
-	desc = {
-		trigger = {hasSpiritualistEthic = yes}
-		text = "ladybugs.spiritualist.desc"
-	}
+	desc = {trigger = {hasSpiritualistEthic = yes} text = "ladybugs.spiritualist.desc"}
+	desc = {trigger = {hasMaterialistEthic = yes} text = "ladybugs.materialist.desc"}
+	desc = {trigger = {hasXenophileEthic = yes} text = "ladybugs.xenophile.desc"}
+	desc = {trigger = {hasXenophobeEthic = yes} text = "ladybugs.xenophobe.desc"}
 	desc = "ladybugs.default.desc"
+	
 	# picture = GFX_evt_mining_station
 	# show_sound = event_ship_bridge
 	location = FROM
