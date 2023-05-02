@@ -1,5 +1,16 @@
 # Space Ladybugs
 ladybugs_asteroid_category = {
+	desc = {
+		trigger = {
+			owner = {
+			 is_spiritualist = yes
+			} 
+		}
+	text = "ladybug_asteroid_category_desc.spiritualist"}
+
+	desc = {trigger = {hasMaterialistEthic = yes} text = "ladybug_asteroid_category_desc.materialist"}
+	desc = {trigger = {hasXenophileEthic = yes} text = "ladybug_asteroid_category_desc.xenophile"}
+	desc = {trigger = {hasXenophobeEthic = yes} text = "ladybug_asteroid_category_desc.xenophobe"}
 	desc = "ladybug_asteroid_category_desc.default"
 
 	# level = 4
