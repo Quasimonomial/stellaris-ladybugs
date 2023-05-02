@@ -1,6 +1,8 @@
 hasSpiritualistEthic = {
-    owner = {
-						
-						is_spiritualist = yes
-				}
+  ownerHasEthicAttribute = {ETHIC_CONDITION = is_spiritualist}}
+
+ownerHasEthicAttribute = {
+    owner = {		
+						$ETHIC_CONDITION$ = yes
 			}
+}

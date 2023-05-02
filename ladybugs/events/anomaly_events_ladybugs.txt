@@ -7,9 +7,7 @@ ship_event = {
 	title = "ladybugs.name"
 	
 	desc = {
-		trigger = {
-		hasSpiritualistEthic = yes
-	}
+		trigger = {hasSpiritualistEthic = yes}
 		text = "ladybugs.spiritualist.desc"
 	}
 	desc = "ladybugs.default.desc"
