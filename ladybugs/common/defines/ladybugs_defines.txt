@@ -1,5 +1,4 @@
 # Debugging Value, Comment out
-
 NGameplay = {
 	ANOMALY_SPAWN_CHANCE = 1
 }
