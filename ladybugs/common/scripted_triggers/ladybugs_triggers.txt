@@ -1,5 +1,22 @@
 ##eligibility checkers
 ##Pshyonic > Hive / Robots > Spiritualist / Materialist > Phobic / Phylic > Default
+
+##eligibility for lower priority conditions
+#spiritualist/materialist
+isEligibleForMaterialist = {
+	AND = {
+		ownerHasMaterialistEthic = yes
+		ownerIsPsionic = no
+	}
+}
+isEligibleForSpiritualist = {
+	AND = {
+		ownerHasSpiritualistEthic = yes
+		ownerIsPsionic = no
+	}
+}
+
+#xeno ethics
 isEligibleForXenophile = {
 	AND = {
 		ownerHasXenophileEthic = yes
@@ -7,7 +24,14 @@ isEligibleForXenophile = {
 		ownerIsPsionic = no
 	}
 }
+isEligibleForXenophobe = { #todo abstract this so it's not repetitive and annoying to look at?
 
+	AND = {
+		ownerHasXenophobeEthic = yes
+		ownerIsSpritualistOrMaterialist = no #must not be eligible for prev
+		ownerIsPsionic = no
+	}
+}
 
 ### groups of conditions
 ownerIsSpritualistOrMaterialist = {

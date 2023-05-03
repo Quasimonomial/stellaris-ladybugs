@@ -17,11 +17,11 @@ ship_event = {
 		text = "ladybugs.machine.desc"
 	}
 	desc = {
-		exclusive_trigger = { ownerHasSpiritualistEthic = yes }
+		exclusive_trigger = { isEligibleForSpiritualist  = yes }
 		text = "ladybugs.spiritualist.desc"
 	}
 	desc = {
-		exclusive_trigger = { ownerHasMaterialistEthic = yes }
+		exclusive_trigger = { isEligibleForMaterialist = yes }
 		text = "ladybugs.materialist.desc"
 	}
 	desc = {
@@ -29,7 +29,7 @@ ship_event = {
 		text = "ladybugs.xenophile.desc"
 	}
 	desc = {
-		exclusive_trigger = { ownerHasXenophobeEthic = yes }
+		exclusive_trigger = { isEligibleForXenophobe = yes }
 		text = "ladybugs.xenophobe.desc"
 	}
 	desc = "ladybugs.default.desc"
