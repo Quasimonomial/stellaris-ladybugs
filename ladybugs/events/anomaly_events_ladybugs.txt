@@ -4,19 +4,27 @@ ship_event = {
 	id = ladybugs.1
 	title = "ladybugs.name"
 	desc = {
-		trigger = { hasSpiritualistEthic = yes }
+		trigger = { ownerHasHiveAuthority = yes }
+		text = "ladybugs.hive.desc"
+	}
+	desc = {
+		trigger = { ownerHasMachineAuthority = yes }
+		text = "ladybugs.machine.desc"
+	}
+	desc = {
+		trigger = { ownerHasSpiritualistEthic = yes }
 		text = "ladybugs.spiritualist.desc"
 	}
 	desc = {
-		trigger = { hasMaterialistEthic = yes }
+		trigger = { ownerHasMaterialistEthic = yes }
 		text = "ladybugs.materialist.desc"
 	}
 	desc = {
-		trigger = { hasXenophileEthic = yes }
+		trigger = { ownerHasXenophileEthic = yes }
 		text = "ladybugs.xenophile.desc"
 	}
 	desc = {
-		trigger = { hasXenophobeEthic = yes }
+		trigger = { ownerHasXenophobeEthic = yes }
 		text = "ladybugs.xenophobe.desc"
 	}
 	desc = "ladybugs.default.desc"
@@ -30,28 +38,42 @@ ship_event = {
 	}
 
 	option = {
-		exclusive_trigger = { hasSpiritualistEthic = yes }
+		exclusive_trigger = { ownerHasHiveAuthority = yes }
+		name = ladybugs.hive.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+	option = {
+		exclusive_trigger = { ownerHasMachineAuthority = yes }
+		name = ladybugs.machine.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+	option = {
+		exclusive_trigger = { ownerHasSpiritualistEthic = yes }
 		name = ladybugs.spiritualist.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
 		}
 	}
 	option = {
-		exclusive_trigger = { hasMaterialistEthic = yes }
+		exclusive_trigger = { ownerHasMaterialistEthic = yes }
 		name = ladybugs.materialist.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
 		}
 	}
 	option = {
-		exclusive_trigger = { hasXenophileEthic = yes }
+		exclusive_trigger = { ownerHasXenophileEthic = yes }
 		name = ladybugs.xenophile.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
 		}
 	}
 	option = {
-		exclusive_trigger = { hasXenophobeEthic = yes }
+		exclusive_trigger = { ownerHasXenophobeEthic = yes }
 		name = ladybugs.xenophobe.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
