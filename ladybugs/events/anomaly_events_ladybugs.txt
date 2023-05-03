@@ -5,7 +5,7 @@ ship_event = {
 	title = "ladybugs.name"
 
 	desc = {
-		trigger = {
+		exclusive_trigger  = {
 			owner = {
 				has_psionic_species_trait = yes
 			}
@@ -13,27 +13,27 @@ ship_event = {
 		text = "ladybugs.psionic.desc"
 	}
 	desc = {
-		trigger = { ownerHasHiveAuthority = yes }
+		exclusive_trigger = { ownerHasHiveAuthority = yes }
 		text = "ladybugs.hive.desc"
 	}
 	desc = {
-		trigger = { ownerHasMachineAuthority = yes }
+		exclusive_trigger = { ownerHasMachineAuthority = yes }
 		text = "ladybugs.machine.desc"
 	}
 	desc = {
-		trigger = { ownerHasSpiritualistEthic = yes }
+		exclusive_trigger = { ownerHasSpiritualistEthic = yes }
 		text = "ladybugs.spiritualist.desc"
 	}
 	desc = {
-		trigger = { ownerHasMaterialistEthic = yes }
+		exclusive_trigger = { ownerHasMaterialistEthic = yes }
 		text = "ladybugs.materialist.desc"
 	}
 	desc = {
-		trigger = { ownerHasXenophileEthic = yes }
+		exclusive_trigger = { ownerHasXenophileEthic = yes }
 		text = "ladybugs.xenophile.desc"
 	}
 	desc = {
-		trigger = { ownerHasXenophobeEthic = yes }
+		exclusive_trigger = { ownerHasXenophobeEthic = yes }
 		text = "ladybugs.xenophobe.desc"
 	}
 	desc = "ladybugs.default.desc"
