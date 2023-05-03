@@ -24,7 +24,7 @@ isEligibleForXenophile = {
 		ownerIsPsionic = no
 	}
 }
-isEligibleForXenophobe = { #todo abstract this so it's not repetitive and annoying to look at?
+isEligibleForXenophobe = {
 
 	AND = {
 		ownerHasXenophobeEthic = yes
@@ -44,9 +44,9 @@ ownerIsSpritualistOrMaterialist = {
 
 ##individual conditions
 ownerIsPsionic = {
-	 owner = { 
-		has_psionic_species_trait = yes 
-	} 
+	 owner = {
+		has_psionic_species_trait = yes
+	}
 	}
 
 ownerHasHiveAuthority = {
