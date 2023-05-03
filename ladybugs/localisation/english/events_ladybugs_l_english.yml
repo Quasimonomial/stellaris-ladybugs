@@ -1,5 +1,8 @@
 ﻿l_english:
 
+d_ladybugs_machine_mixed: "£minerals£ +4 £food£ +1"
+d_zro_deposit_1: "£zro£ +1"
+
 ladybugs_asteroid_category: "Ladybugs!"
 ladybugs.name: "Ladybugs!"
 ladybug_asteroid_category_desc: "We have detected small fluttering life forms on the surface of this asteroid.  They seem to be glistening with light outside the visible spectrum."

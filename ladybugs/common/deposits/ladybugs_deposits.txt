@@ -1,0 +1,17 @@
+d_ladybugs_machine_mixed = {
+	station = shipclass_mining_station
+	is_for_colonizable = no
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			minerals = 4
+			food = 1
+		}
+	}
+	potential = {
+		always = no
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
