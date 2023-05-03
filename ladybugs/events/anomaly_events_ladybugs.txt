@@ -33,6 +33,34 @@ ship_event = {
 	}
 
 	option = {
+		exclusive_trigger = { hasSpiritualistEthic = yes }
+		name = ladybugs.spiritualist.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+	option = {
+		exclusive_trigger = { hasMaterialistEthic = yes }
+		name = ladybugs.materialist.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+	option = {
+		exclusive_trigger = { hasXenophileEthic = yes }
+		name = ladybugs.xenophile.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+	option = {
+		exclusive_trigger = { hasXenophobeEthic = yes }
+		name = ladybugs.xenophobe.option
+		FROM = {
+			set_deposit = d_zro_deposit_1
+		}
+	}
+	option = {
 		name = ladybugs.default.option
 		FROM = {
 			set_deposit = d_zro_deposit_1
