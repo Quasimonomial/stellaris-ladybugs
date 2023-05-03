@@ -28,7 +28,8 @@ ship_event = {
 		text = "ladybugs.xenophobe.desc"
 	}
 	desc = "ladybugs.default.desc"
-
+picture = GFX_evt_shrouded_planet
+show_sound = event_mystic_reveal_light
 	location = FROM
 	is_triggered_only = yes
 	immediate = {
