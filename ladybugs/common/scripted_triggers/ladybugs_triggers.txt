@@ -1,3 +1,30 @@
+##eligibility checkers
+##Pshyonic > Hive / Robots > Spiritualist / Materialist > Phobic / Phylic > Default
+isEligibleForXenophile = {
+	AND = {
+		ownerHasXenophileEthic = yes
+		ownerIsSpritualistOrMaterialist = no #must not be eligible for prev
+		ownerIsPsionic = no
+	}
+}
+
+
+### groups of conditions
+ownerIsSpritualistOrMaterialist = {
+	OR = {
+		ownerHasSpiritualistEthic = yes
+		ownerHasMaterialistEthic = yes
+
+	}
+}
+
+##individual conditions
+ownerIsPsionic = {
+	 owner = { 
+		has_psionic_species_trait = yes 
+	} 
+	}
+
 ownerHasHiveAuthority = {
 	ownerHasAuthorityAttribute = {
 		AUTHORITY_CONDITION = is_hive_empire

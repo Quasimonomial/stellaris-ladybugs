@@ -5,7 +5,7 @@ ship_event = {
 	title = "ladybugs.name"
 
 	desc = {
-		exclusive_trigger  = { owner = { has_psionic_species_trait = yes } }
+		exclusive_trigger  = {ownerIsPsionic = yes}
 		text = "ladybugs.psionic.desc"
 	}
 	desc = {
@@ -25,7 +25,7 @@ ship_event = {
 		text = "ladybugs.materialist.desc"
 	}
 	desc = {
-		exclusive_trigger = { ownerHasXenophileEthic = yes }
+		exclusive_trigger = { isEligibleForXenophile = yes }
 		text = "ladybugs.xenophile.desc"
 	}
 	desc = {
