@@ -2,6 +2,7 @@
 
 d_ladybugs_machine_mixed: "£minerals£ +4 £food£ +1"
 d_zro_deposit_1: "£zro£ +1"
+d_zro_deposit_2: "£zro£ +2"
 
 ladybugs_asteroid_category: "Ladybugs!"
 ladybugs.name: "Ladybugs!"
