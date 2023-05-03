@@ -3,6 +3,15 @@ namespace = ladybugs
 ship_event = {
 	id = ladybugs.1
 	title = "ladybugs.name"
+
+	desc = {
+		trigger = {
+			owner = {
+				has_psionic_species_trait = yes
+			}
+		}
+		text = "ladybugs.psionic.desc"
+	}
 	desc = {
 		trigger = { ownerHasHiveAuthority = yes }
 		text = "ladybugs.hive.desc"
@@ -28,8 +37,10 @@ ship_event = {
 		text = "ladybugs.xenophobe.desc"
 	}
 	desc = "ladybugs.default.desc"
-picture = GFX_evt_shrouded_planet
-show_sound = event_mystic_reveal_light
+
+	picture = GFX_evt_shrouded_planet
+	show_sound = event_mystic_reveal_light
+
 	location = FROM
 	is_triggered_only = yes
 	immediate = {
