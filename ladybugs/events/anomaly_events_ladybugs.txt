@@ -3,21 +3,20 @@ namespace = ladybugs
 ship_event = {
 	id = ladybugs.1
 	title = "ladybugs.name"
+	
+	
 	desc = {
-		trigger = { 
-			owner = {
+	if = { limit = {
+		owner = {
 	has_psionic_species_trait = yes
-			}
-		}
-		text = "ladybugs.psionic.desc"
-	}
-	desc = {
-		trigger = { ownerHasHiveAuthority = yes }
-		text = "ladybugs.hive.desc"
-	}
-			trigger = { ownerHasMachineAuthority = yes }
-		text = "ladybugs.machine.desc"
-	}
+			}}
+				text = "ladybugs.psionic.desc"
+		} else_if = {
+			limit = {ownerHasMachineAuthority = yes}
+	text = "ladybugs.machine.desc"} else_if = {
+		limit = { ownerHasHiveAuthority = yes }
+	text = "ladybugs.hive.desc"
+	} else = {
 		switch = {
     trigger = pop_has_ethic
     ethic_xenophile = { text = "ladybugs.xenophile.desc" }
@@ -26,7 +25,9 @@ ship_event = {
 	ethic_spiritualist = {text = "ladybugs.spiritualist.desc"}
     default = { text = "ladybugs.default.desc" }
 }
-	desc = "ladybugs.default.desc"
+	}
+}
+
 picture = GFX_evt_shrouded_planet
 show_sound = event_mystic_reveal_light
 	location = FROM
