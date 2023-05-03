@@ -4,29 +4,28 @@ ship_event = {
 	id = ladybugs.1
 	title = "ladybugs.name"
 	desc = {
+		trigger = { 
+			owner = {
+	has_psionic_species_trait = yes
+			}
+		}
+		text = "ladybugs.psionic.desc"
+	}
+	desc = {
 		trigger = { ownerHasHiveAuthority = yes }
 		text = "ladybugs.hive.desc"
 	}
-	desc = {
-		trigger = { ownerHasMachineAuthority = yes }
+			trigger = { ownerHasMachineAuthority = yes }
 		text = "ladybugs.machine.desc"
 	}
-	desc = {
-		trigger = { ownerHasSpiritualistEthic = yes }
-		text = "ladybugs.spiritualist.desc"
-	}
-	desc = {
-		trigger = { ownerHasMaterialistEthic = yes }
-		text = "ladybugs.materialist.desc"
-	}
-	desc = {
-		trigger = { ownerHasXenophileEthic = yes }
-		text = "ladybugs.xenophile.desc"
-	}
-	desc = {
-		trigger = { ownerHasXenophobeEthic = yes }
-		text = "ladybugs.xenophobe.desc"
-	}
+		switch = {
+    trigger = pop_has_ethic
+    ethic_xenophile = { text = "ladybugs.xenophile.desc" }
+    ethic_xenophobe = { text = "ladybugs.xenophobe.desc" }
+	ethic_materialist = { text = "ladybugs.materialist.desc" }
+	ethic_spiritualist = {text = "ladybugs.spiritualist.desc"}
+    default = { text = "ladybugs.default.desc" }
+}
 	desc = "ladybugs.default.desc"
 picture = GFX_evt_shrouded_planet
 show_sound = event_mystic_reveal_light
