@@ -15,8 +15,8 @@ ladybugs.default.option: "We should set up a station to collect the particles fr
 
 # Hive Mind Text
 
-ladybugs.hive.desc: "Dummy Hive Text"
-ladybugs.hive.option: "Hive!"
+ladybugs.hive.desc: "Despite the observed life forms being very small, deep space ecosystems are so very rare.  We sent a self detachment of drones to investigate for signs of life.\n\nWe have been studying the pattern of bug movement; they have near choreographic coordination in their movements with each other, but we believe the bugs are too primitive to form a true coherent overmind.\n\nWe can observe them hunting, but their prey is not obvious.  When we observe them “feeding,” we detect radiation in the exotic spectrums; some of the waveforms match those of the shared dream.\n\nThe team spent several sleepcycles deep in the asteroid.  After one standard solar rotation, we could no longer feel the thoughts of [Root.GetLeaderName]. Their reports  upon rejoining us are… unsettling. They have returned with memories of a splintered dream, fractal centipede biting entities.  They have shared hallucinatory memories of wandering aimlessly in the dark, until they reached the surface zones.  Here they came into contact with the ladybug swarms, where their bodies were quickly covered in the aliens.  Fragmentary memories from the team suggest that theLadybugs devoured the parasites, but our rover's instruments cannot corroborate this.\n\n[Root.GetLeaderName] is shaken from the experience, but claims certain insights. Their dreams have shown us where in the asteroid we could find accumulated pools of Zro."
+ladybugs.hive.option: "Strange developments..."
 
 # Machine Empire Text
 
