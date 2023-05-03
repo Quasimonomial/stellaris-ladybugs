@@ -20,8 +20,8 @@ ladybugs.hive.option: "Strange developments..."
 
 # Machine Empire Text
 
-ladybugs.machine.desc: "Dummy Toaster Text"
-ladybugs.machine.option: "Beep Boop"
+ladybugs.machine.desc: "The asteroid displays readings indicating organic lifeforms. These beings have been classified of the type Ladybug due to their similarity to analogous planetbound creatures.\n\nScientists stationed on the [Root.GetName] dispatched a rover to harvest samples of the asteroid for element extraction.  The organics are decidedly non hostile, and we were able to perform a thorough mapping of the interior.  The Ladybugs show no signs of sentience, and they display flocking behavior that doesn't show any rational purpose, as is common with organics.\n\nOur rover's reading and shipboard sensors have several irreconcilable contradictions; the most reasonable explanation is that some of the mabinoid series metals deep in the asteroid are interfering with our readings.\n\nAll of the samples we brought back indicate promise if we were to begin mining operations here.  While there is a low probability that the insect life would interfere with mineral extraction, it is likely that they will be in the way of our equipment."
+ladybugs.machine.option: "We will need to centrifuge the organic matter from our mining operations…"
 
 # Psionic Empire Text
 
