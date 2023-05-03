@@ -1,6 +1,6 @@
 ladybugs_asteroid_category = {
 	desc = ladybug_asteroid_category_desc
-	picture = GFX_evt_shrouded_planet
+	picture = GFX_evt_crystal_asteroids
 	# level = 4
 	level = 1	# Debugging Value
 	spawn_chance = {
