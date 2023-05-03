@@ -1,11 +1,11 @@
 ownerHasHiveAuthority = {
-	ownerHasEthicAttribute = {
+	ownerHasAuthorityAttribute = {
 		AUTHORITY_CONDITION = is_hive_empire
 	}
 }
 
 ownerHasMachineAuthority = {
-	ownerHasEthicAttribute = {
+	ownerHasAuthorityAttribute = {
 		AUTHORITY_CONDITION = is_machine_empire
 	}
 }
