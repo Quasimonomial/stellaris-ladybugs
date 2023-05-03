@@ -22,8 +22,6 @@ ship_event = {
 	}
 	desc = "ladybugs.default.desc"
 
-	# picture = GFX_evt_mining_station
-	# show_sound = event_ship_bridge
 	location = FROM
 
 	is_triggered_only = yes

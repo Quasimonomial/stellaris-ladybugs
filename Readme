@@ -1,16 +1,5 @@
 # Lady Bugs!
 
-## Ladybugs Event Id Key
-Turns out that we have to key the IDs off of integers or we get an error, so here we go
-0: Default
-1: Psionic
-2: Machine Empire
-3: Hive
-4: Spiritualist
-5: Materialist
-6: Xenophile
-7: Xenophobe
-
 ## ToDos
 * Graphics
   * For Discovering the Asteroid
@@ -20,17 +9,9 @@ Turns out that we have to key the IDs off of integers or we get an error, so her
   * Machine Empires
   * Hive Minds
   * Psionic Empires
-* Conditionals
-  * Doing these
+  * Description Rework
 * Deposits
   * Food + Minerals for Machine Empires
-* Coding
-  * Get all the text into the yaml files
-  * Allow for Conditional Setting of text
-  * Allow for conditional reward (machine empires vs every else)
-  * Comments for everything
-  * Remove Debugging anomaly Stuff
-  * Clean up Code Generally after debugging
 
 ## Testing
 * Need to have the mod set up properly, only known way to do this is to create a mod and then replace the contents of the mod file with this code
