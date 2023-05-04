@@ -1,14 +1,14 @@
 ladybugs_asteroid_category = {
 	desc = ladybug_asteroid_category_desc
 	picture = GFX_evt_crystal_asteroids
-	# level = 4
-	level = 1	# Debugging Value
+
+	level = 4
+
 	spawn_chance = {
-		base = 100000	# debugging value
-		# modifier = {
-		# 	add = 2
-		# 	is_asteroid = yes
-		# }
+		modifier = {
+			add = 2
+			is_asteroid = yes
+		}
 	}
 	on_success = ladybugs.1
 }
