@@ -3,5 +3,5 @@ tags={
 	"Events"
 }
 name="Ladybugs"
-supported_version="3.7.*"
 picture="thumbnail.png"
+supported_version="3.7.*"
