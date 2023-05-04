@@ -4,4 +4,4 @@ tags={
 }
 name="Ladybugs"
 supported_version="3.7.*"
-picture="stellarisLadybugImage.png"
+picture="thumbnail.png"
