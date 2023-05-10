@@ -4,4 +4,4 @@ tags={
 }
 name="Ladybugs"
 picture="thumbnail.png"
-supported_version="3.7.*"
+supported_version="3.8.*"
